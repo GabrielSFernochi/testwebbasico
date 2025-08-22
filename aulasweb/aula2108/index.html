@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 21/08/2025 - CSS </title>
+    <link rel="stylesheet" href="estilo.css"><!--Arquivo externo contendo os comandos CSS (Não criar um arquivo com # no nome, # é para seletor de ID)-->
+    <style>
+        /*h1{color: blueviolet;} ->o código puxa a declaração css "mais proxima" a ele (segundo a professora)*/
+        body {
+            background-color:dimgray;
+            /*color: white; altera a cor da fonte*/
+            /*<-isso aqui também é um comentário*/
+        }
+    </style>
+</head>
+<body>
+    <!--Mode 1 de associar CSS: diretamente no HTML-->
+    <h1 style="text-align: center;">Introdução ao CSS</h1><!--Cascading style sheets-->
+
+    <p id="p1" class="classe novaclasse"> <!--É possível ter id e classe na mesma tag-->
+       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, eveniet? 
+       Nobis aut ullam inventore quam impedit beatae tempore voluptatibus itaque, nisi laboriosam?
+       Odio, saepe iure. Minima temporibus consequatur animi commodi?
+    </p>
+    <h2>Seletores CSS</h2>
+    <ul class="classe teste">Existem 3 tipos de seletores CSS
+        <li>Seletores de elementos</li>
+        <li class="classe">Seletores de ID</li>
+        <li>Seletores de classe</li>
+    </ul>
+    <div class="teste-cores">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Sit quis commodi harum ipsum saepe consequatur aperiam maxime, rem natus sequi consequuntur debitis. 
+            Modi numquam laborum magni aliquam id sunt officia.
+        </p>
+    </div>
+</body>
+</html>

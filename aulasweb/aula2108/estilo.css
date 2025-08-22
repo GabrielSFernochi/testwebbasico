@@ -1,0 +1,28 @@
+/*Seletor de elementos*/
+p{
+    color:aquamarine;
+}
+h1{
+    color:chocolate
+}
+/*Seletor de ID*/
+#p1{font-size: xx-large;
+    text-align: center;
+    color: chartreuse;
+}
+/*Seletores de classe*/
+p.classe{ /*O ponto indica a classe. O "p" antes indica a tag, ou seja, só afetará os paragrafos que possuem a classe*/
+    border: 0.2em ridge red;
+
+}
+.novaclasse {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.teste-cores {
+    padding: 1%;
+    background-color: rgba(148,125,203,0.5) /*rgb te permite mudar manualmente o tom das cores baseado nas cores primárias. 
+    O alpha(a) indica a intensidade da cor final, sendo 1 completamente visível e 0 transparente (os decimais sempre com . não com ,).*/
+}
+.teste {
+    font-size: x-large; /*deu certo*/
+}
