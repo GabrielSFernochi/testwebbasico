@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 28/08 - CSS e Tags</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <h1>Tags e CSS</h1>
+    <h2>Tabelas</h2>
+    <table>
+        <tr><!--Table row (Linha)-->
+            <th><!--Table head (Cabeçalho)-->
+                Coluna 1
+            </th>
+            <th>
+                Coluna 2
+            </th>
+            <tr>
+                <td>dado 1.1</td> <td>dado 1.2</td><!--Table data (Info dentro das linhas)-->
+            </tr>
+        </tr>
+    </table>
+    <p>Exemplo de tabela com cabeçalho (thead), corpo (tbody) e rodapé (tfooter)</p>
+    <table>
+        <thead>
+            <th>Aluno</th><th>Nota 1</th><th>Nota 2</th><th>Média</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mateus sem th</td><td>0</td><td>2</td><td>1</td>
+            </tr>
+            <tr>
+                <td>Caio vícios</td> <td>92</td> <td>40</td> <td>66</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>
+                Tabela de notas
+            </th>
+        </tfoot>
+    </table>
+    <p>Colspan e rowspan - Mesclando células</p>
+    <table>
+        <tr>
+            <th>Coluna 1</th><th>Coluna 2</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Dado 1</td><!--Ocupa duas linhas--> <td>Dado 2</td>
+        </tr>
+        <tr>
+            <td>Dado 3</td>
+        </tr>
+        
+        <tr>
+            <td>Dado teste</td>
+        </tr>
+
+    </table>
+    <table>
+        <tr>
+            <th>Coluna 1</th><th>Coluna 2</th>
+        </tr>
+        <tr>
+            <td colspan="2">Dado 1</td><!--Ocupa duas colunas--> <td>Dado 2</td>
+        </tr>
+        <tr>
+            <td>Dado 3</td>
+        </tr>
+        
+        <tr>
+            <td>Dado teste</td>
+        </tr>
+    <!-- EM RESUMO: Rowspan: Ocupa mais linhas na horizontal
+                    Colspan: Ocupa mais linhas na vertical-->
+    </table>
+    
+</body>
+</html>

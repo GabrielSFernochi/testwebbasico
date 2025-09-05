@@ -1,0 +1,8 @@
+body{
+    background-color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+td:hover{
+    background-color: aquamarine; /*dois pontos (:) = condição (ou seja, quando 'mouse hover' trocar 'background color').*/
+}
