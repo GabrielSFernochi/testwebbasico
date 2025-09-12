@@ -1,0 +1,25 @@
+label{
+    display: block;
+ /*display em bloco quebra linha*/
+ margin-top: 1rem;/*rem é uma medida relativa ao tamanho do que está sendo medido*/
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+
+}
+.formulario{ /*para puxar uma classe não precisa escrever "class", só usar um ponto (id é com #)*/
+margin: 2rem;
+padding: 2rem;
+}
+
+input{
+    border-radius: 0.5rem;
+    border-color: brown;
+    padding: 0.2rem;
+}
+#nasc:hover {
+    background-color: rgba(50, 50, 50, 0.5) /*o último número é o alpha, altera a opacidade da cor*/
+}
+
