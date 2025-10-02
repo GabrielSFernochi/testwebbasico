@@ -1,0 +1,55 @@
+body
+{
+    background-color:blanchedalmond;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1
+{
+    border-style:double;
+    text-align: left;
+    margin-right: 74.5rem;
+    
+}
+.container
+{
+    position: fixed;
+    background-color: darksalmon;
+    margin-right: 100rem;
+    border-style: double;
+}
+.menu
+{
+    display: block;
+    
+    
+}
+.conteudo
+{
+    
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-bottom: 20px;
+    
+}
+    
+
+.item_menu
+{
+    padding: 0.3rem;
+    
+}
+.item_menu:hover
+{
+    background-color: brown;
+    color: white;
+}
+
+
+
+
+
+
+
